@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:cyan; */
+}
+@media screen and (min-width:350px) {
+    .calc{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .bbg{
+        background-color: red;
+    }
+    .mw-20{
+        width: 20vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .flex-column{
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .button{
+        padding: 3px;
+        margin: 2px;
+        background-color: white;
+        cursor: pointer;
+        border: solid 2.3px black;
+        border-radius: 5px ;
+        font-size: 7px;
+        font-weight: bolder;
+        height: 15px;
+    }
+    .screen{
+        border: solid 2px black;
+        height: 30px;
+        background-color: white;
+        margin-bottom: 20px;
+        
+    }
+    .flex-button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* color: black; */
+        align-content: center;
+        justify-content: space-between;
+    }
+    .button:hover{
+        background-color: darkgray;
+    }
+}
+@media screen and (min-width:722px) {
+    .calc{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .bbg{
+        background-color: red;
+    }
+    .mw-20{
+        width: 20vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .flex-column{
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .button{
+        padding: 10px;
+        margin: 4px;
+        background-color: white;
+        cursor: pointer;
+        border: solid 2.3px black;
+        border-radius: 5px ;
+        font-size: 8px;
+        font-weight: bolder;
+        height: 15px;
+    }
+    .screen{
+        border: solid 2px black;
+        height: 30px;
+        background-color: white;
+        margin-bottom: 20px;
+        
+    }
+    .flex-button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* color: black; */
+        align-content: center;
+        justify-content: space-between;
+    }
+    .button:hover{
+        background-color: darkgray;
+    }
+}
+@media screen and (min-width:1387px) {
+    
+.calc{
+    font-size: 4rem;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    
+}
+.bbg{
+    background-color: red;
+}
+.mw-20{
+    width: 20vw;
+    margin: auto;
+    margin-top: 3%;
+}
+.flex-column{
+    flex-direction: column;
+    /* background-color: red; */
+}
+.button{
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+    border: solid 2.3px black;
+    border-radius: 5px ;
+    font-size: 10px;
+    font-weight: bolder;
+    height: 15px;
+}
+.screen{
+    border: solid 2px black;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.flex-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* color: black; */
+    align-content: center;
+    justify-content: space-between;
+}
+.button:hover{
+    background-color: darkgray;
+}
+}
