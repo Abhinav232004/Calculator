@@ -10,34 +10,40 @@
     <body>
     <main>
         <h2 class="calc">Calculator</h2>
-        <div class="inputs flex flex-column mw-20">
+        <div class="inputs flex flex-column mw-20 width">
             
             <input type="text" class="screen" id="scratch">
-            <div class="row flex-button">
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button">/</button>
+            <div class="row flex-button flex-button-topr">
+                <button class="button button-topr bbg-lightgrey">AC</button>
+                <button class="button button-topr bbg-lightgrey">sqrt</button>
+                <button class="button button-topr bbg-lightgrey">%</button>
+                <button class="button button-topr bbg-yellow color-white">/</button>
             </div>
             <div class="row flex-button">
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button">*</button>
+                <button class="button bbg-darkgrey">7</button>
+                <button class="button bbg-darkgrey">8</button>
+                <button class="button bbg-darkgrey">9</button>
+                <button class="button bbg-yellow">*</button>
             </div>
             <div class="row flex-button">
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button">-</button>
+                <button class="button bbg-darkgrey">4</button>
+                <button class="button bbg-darkgrey">5</button>
+                <button class="button bbg-darkgrey">6</button>
+                <button class="button bbg-yellow">-</button>
             </div>
             <div class="row flex-button">
-                <button class="button">0</button>
-                <button class="button">C</button>
-                <button class="button">+</button>
-                <button class="button">=</button>
+                <button class="button bbg-darkgrey">1</button>
+                <button class="button bbg-darkgrey">2</button>
+                <button class="button bbg-darkgrey">3</button>
+                <button class="button bbg-yellow">+</button>
             </div>
-        </div>
+            <div class="row flex-button">
+                <button class="button button0 bbg-darkgrey">0</button>
+                <!-- <button class="button">C</button> -->
+                <button class="button bbg-darkgrey">.</button>
+                <button class="button bbg-yellow">=</button>
+            </div>
+            </div>
     </main>
     <script src="script.js"></script>
     
