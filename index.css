@@ -8,10 +8,12 @@
     font-size: 4rem;
     text-align: center;
     color: white;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (min-width:320px) {
     .calc{
-        text-align: center;
+        text-align: ;
     }
     .flex{
         display: flex;
