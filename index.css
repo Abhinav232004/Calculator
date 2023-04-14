@@ -192,8 +192,8 @@
     .width{
         width: 400px;
     }}
-    }
-    @media screen and (min-width:1024px) {
+    
+@media screen and (min-width:1024px) {
            .flex{
            display: flex;
            
@@ -211,13 +211,13 @@
            /* background-color: red; */
        }
        .button{
-           padding: 20px;
+           padding: 22px;
            /* margin: 10px; */
            background-color: white;
            cursor: pointer;
            border: solid 2.3px black;
            border-radius: 10px ;
-           font-size: 25px;
+           font-size: 40px;
            font-weight: bolder;
            display: flex;
            /* text-align: center; */
@@ -251,12 +251,12 @@
            text-align: center;
        }
        .button-topr{
-           padding: 21px;
+           padding: 22px;
            background-color: white;
            cursor: pointer;
            border: solid 2.3px black;
            border-radius: 10px ;
-           font-size: 25px;
+           font-size: 22px;
            font-weight: bolder;
            color: black;
            
@@ -285,7 +285,7 @@
         width: 400px;
        }
        }
-   @media screen and (min-width:1440px) {
+@media screen and (min-width:1440px) {
            .flex{
                display: flex;
                
@@ -303,13 +303,13 @@
                /* background-color: red; */
            }
            .button{
-               padding: 20px;
+               padding: 23px;
                /* margin: 10px; */
                background-color: white;
                cursor: pointer;
                border: solid 2.3px black;
                border-radius: 10px ;
-               font-size: 25px;
+               font-size: 40px;
                font-weight: bolder;
                display: flex;
                /* text-align: center; */
@@ -339,11 +339,11 @@
                background-color: darkgray;
            }
            .button0{
-               width: 120px;
+               width: 160px;
                text-align: center;
            }
            .button-topr{
-               padding: 20px;
+               padding: 22px;
                background-color: white;
                cursor: pointer;
                border: solid 2.3px black;
@@ -378,3 +378,5 @@
            }
            }
     
+    
+ 
