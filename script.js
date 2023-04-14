@@ -1,3 +1,4 @@
+
 let string = "";
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button)=>{
@@ -5,8 +6,9 @@ Array.from(buttons).forEach((button)=>{
     if(e.target.innerHTML == '='){
       string = eval(string);
       document.querySelector('input').value = string;
+      document.getElementById('scratch').innerHTML=string +"h1";
     }
-    else if(e.target.innerHTML == 'C'){
+    else if(e.target.innerHTML == 'AC'){
       string = ""
       document.querySelector('input').value = string;
     }
@@ -18,6 +20,5 @@ Array.from(buttons).forEach((button)=>{
       
   // }
   // )
-}
+})}
 )
-})
