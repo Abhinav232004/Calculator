@@ -9,6 +9,193 @@
     text-align: center;
     color: white;
 }
+@media screen and (min-width:320px) {
+    .calc{
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .bbg{
+        background-color: red;
+    }
+    .mw-20{
+        width: 20vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .flex-column{
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .button{
+        padding: 16px;
+        /* margin: 10px; */
+        background-color: white;
+        cursor: pointer;
+        border: solid 2.3px black;
+        border-radius: 10px ;
+        font-size: 25px;
+        font-weight: bolder;
+        display: flex;
+        /* text-align: center; */
+        align-items: center;
+        color: white;
+        /* justify-content: end; */
+        /* justify-content: center; */
+    }
+    .screen{
+        border: solid 2px black;
+        height: 30px;
+        background-color: black;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 40px;
+        
+    }
+    .flex-button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* color: black; */
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    .button:hover{
+        background-color: darkgray;
+    }
+    .button0{
+        width: 125px;
+        text-align: center;
+    }
+    .button-topr{
+        padding: 12px;
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        border: solid 2.3px black;
+        border-radius: 10px ;
+        font-size: 20px;
+        font-weight: bolder;
+        
+    
+        
+    }
+    .flex-button-topr{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .bbg-yellow{
+        background-color: orange;
+    }
+    .bbg-darkgrey{
+        background-color:rgba(93, 92, 92, 0.737);
+    }
+    .bbg-lightgrey{
+        background-color: rgb(255, 234, 234);
+    }
+    .color-white{
+        color: white
+    }
+    .width{
+        width:300px;
+    }
+    }
+@media screen and (min-width:375px) {
+        .flex{
+            display: flex;
+            
+        }
+        .bbg{
+            background-color: red;
+        }
+        .mw-20{
+            width: 20vw;
+            margin: auto;
+            margin-top: 3%;
+        }
+        .flex-column{
+            flex-direction: column;
+            /* background-color: red; */
+        }
+        .button{
+            padding: 14px;
+            /* margin: 10px; */
+            background-color: white;
+            cursor: pointer;
+            border: solid 2.3px black;
+            border-radius: 10px ;
+            font-size: 25px;
+            font-weight: bolder;
+            display: flex;
+            /* text-align: center; */
+            align-items: center;
+            color: white;
+            /* justify-content: end; */
+            /* justify-content: center; */
+        }
+        .screen{
+            border: solid 2px black;
+            height: 30px;
+            background-color: black;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 40px;
+            
+        }
+        .flex-button{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* color: black; */
+            align-content: center;
+            justify-content: space-evenly;
+        }
+        .button:hover{
+            background-color: darkgray;
+        }
+        .button0{
+            width: 115px;
+            text-align: center;
+        }
+        .button-topr{
+            padding: 12px;
+            background-color: white;
+            cursor: pointer;
+            color: black;
+            border: solid 2.3px black;
+            border-radius: 10px ;
+            font-size: 20px;
+            font-weight: bolder;
+            
+        
+            
+        }
+        .flex-button-topr{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .bbg-yellow{
+            background-color: orange;
+        }
+        .bbg-darkgrey{
+            background-color:rgba(93, 92, 92, 0.737);
+        }
+        .bbg-lightgrey{
+            background-color: rgb(255, 234, 234);
+        }
+        .color-white{
+            color: white
+        }
+        .width{
+            width: 300px;
+        }
+        }
 @media screen and (min-width:425px) {
     .flex{
         display: flex;
